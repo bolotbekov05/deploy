@@ -4,8 +4,33 @@
     box-sizing: border-box;
 }
 
-.container{
-    width: 1200px;
-    height: 800px;
-    background: rgb(rgb(222, 162, 166), rgb(223, 170, 170), rgb(201, 94, 94));
+.block{
+    position: relative;
+}
+
+.circle{
+    width: 200px;
+    height: 200px;
+    background: red;
+    border-radius: 50%;
+}
+
+.see{
+    width: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.see__see{
+    width: 50px;
+    height: 50px;
+    background: red;
+    border-radius: 50%;
+}
+
+.mouth{
+    width: 120px;
+    height: 40px;
+    background: red;
+    border-radius: 0 0 40px 40px;
 }
