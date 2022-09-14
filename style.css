@@ -1,0 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 1200px;
+    height: 800px;
+    background: rgb(rgb(222, 162, 166), rgb(223, 170, 170), rgb(201, 94, 94));
+}
